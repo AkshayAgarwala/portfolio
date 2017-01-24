@@ -36,7 +36,7 @@ section {
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: url("mac2.jpg");
+  background-image: url("mac2.jpg"); opacity: .6;
   background-size: cover;
   /*background-repeat: no-repeat;*/
   display: table;
@@ -53,7 +53,7 @@ section {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: #ddd;
+  background-color: #bbb;
 }
 #me {
   height: 25vh;
@@ -62,7 +62,7 @@ section {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: orange;
+  background-color: #aaa;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -81,6 +81,29 @@ section {
 #contact-links li a:hover {
   color: red;
 }
+
+.row {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.thumbnail{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*.row {
+  display: table;
+}*/
+
+
+.row > .resize {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}*/
 /*#contact-links li::after {
   content: "  |"
 }*/
