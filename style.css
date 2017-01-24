@@ -1,0 +1,86 @@
+/*header {
+  background-image: url("https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg");
+  background-size: cover;
+}*/
+
+@import url("bootstrap-3.3.7-dist/css/bootstrap.min.css");
+
+body {
+  margin: 0;
+}
+section {
+  width: 100%;
+  padding: 0;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: gray;
+  height: 100vh;
+}
+
+#name{
+  font-family: Arial;
+  margin: 0;
+  font-size: 40px;
+}
+#name, #name-content {
+  color: red;
+  font-weight: bolder;
+}
+
+#name-content {
+  font-size: 20px;
+}
+
+#mainPic {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("mac2.jpg");
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  display: table;
+}
+
+#mainPic-content {
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#projects {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+}
+#me {
+  height: 25vh;
+}
+#contact {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#contact-links {
+  list-style-type: none;
+}
+
+#contact-links li {
+  display: inline;
+  text-decoration: none;
+  margin: 5px;
+}
+
+#contact-links li a:hover {
+  color: red;
+}
+/*#contact-links li::after {
+  content: "  |"
+}*/
